@@ -1,0 +1,28 @@
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: normal;
+}
+
+.Congrats {
+    padding: 48px 48px 0 48px;
+}
+
+.TodoCounter-h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 8px 48px 48px 48px;
+    font-weight: normal;
+}
+
+.TodoCounter span {
+    font-weight: bold;
+}
+
+.fire:hover {
+    cursor: pointer;
+    color: #66A182;
+}

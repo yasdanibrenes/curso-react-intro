@@ -1,0 +1,15 @@
+.LoadingTodo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 115px;
+}
+
+.LoadingTodo-btn {
+    height: 48px;
+    width: 256px;
+    border-radius: 10px;
+}
