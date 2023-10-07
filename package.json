@@ -2,6 +2,7 @@
   "name": "platzi-intro-react-base",
   "version": "0.1.0",
   "dependencies": {
+    "canvas-confetti": "^1.7.0",
     "react": "^18",
     "react-dom": "^18",
     "react-scripts": "5.0.1",
@@ -28,5 +29,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://yasdanibrenes.github.io/curso-react-intro"
 }
