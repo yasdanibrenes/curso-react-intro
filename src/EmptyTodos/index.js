@@ -1,8 +1,20 @@
+import React from "react";
+import { TodoContext } from "../TodoContext";
 import './EmptyTodos.css';
 
-function EmptyTodos() {
+function EmptyTodos() { 
+
+  const {
+    todos,
+  } = React.useContext(TodoContext);
     return(
-      <p className='EmptyTodos'>Hi, create your firt task!</p>
+    <>
+      {todos.length === 0 ? ( 
+        <p className='EmptyTodos'>Hi, create your first task!</p>
+      ) : (
+        <p className='EmptyTodos'>There are no task to show.</p>
+      )}
+    </>
     )
   };
 
