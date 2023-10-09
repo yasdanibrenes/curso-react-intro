@@ -1,12 +1,14 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# TO-DO App
 
-¡Hola, Platzinauta!
+The To-Do app build with React with the following functions:
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
-
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
-
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+- Create/add a To-DO
+- Show and filter the To-Do's with a search bar
+- Check the complete To-Do's
+- Delete the To-Do
+- A To-Do counter of how many completed and the total of To-Do's in the list
+- Save the To-Do list to local storage
+- Deployed to GitHub pages [here](https://yasdanibrenes.github.io/curso-react-intro/)
 
 ## Getting Started with Create React App
 
